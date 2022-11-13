@@ -1,0 +1,412 @@
+div.fly {
+    text-align: center;
+    border: 5px;
+    width: 99%;
+    height: auto;
+    border-style: solid;
+    border-color: #BEBEBE;
+    background-color: #BEBEBE;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+div.welcome {
+    border: 5px;
+    width: 99%;
+    height: auto;
+    border-style: solid;
+    border-color: #BEBEBE;
+    background-color: #EBF2FA;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+div.welcome2 {
+    text-align: center;
+    border: 5px;
+    width: 99%;
+    height: auto;
+
+    border-style: solid;
+    border-color: #BEBEBE;
+    background-color: #EBF2FA;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+div.welcome3 {
+    text-align: center;
+    border: 5px;
+    width: 49%;
+    height: auto;
+    display: block;
+    border-style: solid;
+    border-color: #BEBEBE;
+    background-color: #EBF2FA;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+
+div.welcome4 {
+    border: 5px;
+    width: 99%;
+    height: 500px;
+    border-style: solid;
+    border-color: #BEBEBE;
+    background-color: #EBF2FA;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+div.welcome5 {
+    text-align: center;
+    border: 5px;
+    width: 30%;
+    height: auto;
+    display: block;
+    border-style: solid;
+    border-color: #BEBEBE;
+    background-color: #EBF2FA;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+
+div.welcome6 {
+    text-align: center;
+    border: 5px;
+    width: 68%;
+    height: auto;
+    display: block;
+    border-style: solid;
+    border-color: #BEBEBE;
+    background-color: #EBF2FA;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+
+.school {
+    font-family: 微軟正黑體;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1.title {
+    text-align: center;
+    font-family: 微軟正黑體;
+}
+
+nav {
+    text-align: center;
+    background-color: #9AAEBE;
+    width: auto;
+    height: auto;
+    font-family: 微軟正黑體;
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px 100px;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background-color: #9AAEBE;
+    color: white;
+    border-radius: 5px;
+}
+
+.photo {
+    float: left;
+    width: 350px;
+    height: 350px;
+    margin: 30px 50px;
+    border-radius: 50%;
+    border: #496A81 solid 10px;
+}
+
+.name {
+    display: block;
+    font-family: 微軟正黑體;
+    font-size: 30px;
+    padding: 0px 0px 0px 200px;
+    background-color: #EBF2FA;
+    margin: 25px;
+}
+
+.enword {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.nametitle {
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em #FFB100;
+}
+
+.alltitle {
+    text-align: center;
+    padding: 0px 10px;
+    font-size: 30px;
+}
+
+.imfortitle {
+    text-align: center;
+    display: block;
+    width: 99%;
+    height: auto;
+    padding: 5px;
+    background-color: #EBF2FA;
+    font-size: 20px;
+}
+
+
+.skilltitle {
+    text-align: left;
+    font-size: 20px;
+    clear: both;
+    padding-left: 80px;
+}
+
+.out {
+    align-items: center;
+    margin-left: 10%;
+    height: 20px;
+    width: 80%;
+    border: 1px wheat solid;
+    border-radius: 20px;
+    background-color: #496A81;
+}
+
+@keyframes Expand {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.in1 {
+    animation: Expand 5s;
+    align-items: center;
+    padding-left: 10%;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #2B3A67 60%, transparent 60%);
+}
+
+.in2 {
+    animation: Expand 5s;
+    align-items: center;
+    padding-left: 10%;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #2B3A67 50%, transparent 50%);
+
+}
+
+.in3 {
+    animation: Expand 5s;
+    align-items: center;
+    padding-left: 10%;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #2B3A67 70%, transparent 70%);
+}
+
+.in4 {
+    animation: Expand 5s;
+    align-items: center;
+    padding-left: 10%;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #2B3A67 70%, transparent 70%);
+}
+
+.in5 {
+    animation: Expand 5s;
+    align-items: center;
+    padding-left: 10%;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #2B3A67 80%, transparent 80%);
+}
+
+.in6 {
+    animation: Expand 5s;
+    align-items: center;
+    padding-left: 10%;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #2B3A67 70%, transparent 70%);
+}
+
+.in7 {
+    animation: Expand 5s;
+    align-items: center;
+    padding-left: 10%;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #2B3A67 70%, transparent 70%);
+}
+
+.in8 {
+    animation: Expand 5s;
+    align-items: center;
+    padding-left: 10%;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #2B3A67 80%, transparent 80%);
+}
+
+
+.flex {
+    display: flex;
+}
+
+.imfor {
+    display: block;
+    background-color: #FFB01C;
+}
+
+.bar-container {
+    margin: 10px 30%;
+    width: 360px;
+    height: 30px;
+    border-radius: 25px;
+    background: #E0E0E0;
+}
+
+.bar-progress {
+    padding-top: 30x;
+    padding-bottom: -20px;
+    width: 80%;
+    /*表示趴數*/
+    color: #1E555C;
+    height: inherit;
+    background: red;
+    border-radius: 25px 0 0 25px;
+    transition: width .2s linear;
+}
+
+p.title {
+    padding: 5px;
+    background-color: blue;
+}
+
+marquee.title {
+    font-size: 25px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    padding: 5px;
+    animation: personal 8s linear infinite;
+}
+
+body {
+    font-family: 微軟正黑體;
+}
+
+.bigbody {
+    width: 99%;
+    height: auto;
+    background-color: #BEBEBE;
+    display: block;
+    border-radius: 20px;
+}
+
+.exptitle {
+    background-color: #D0F4EA;
+    color: #2B3A67;
+    text-align: center;
+    font-family: 微軟正黑體;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+}
+
+.expin {
+    text-align: center;
+    font-family: 微軟正黑體;
+    font-size: 17px;
+}
+
+.exp {
+    float: left;
+    margin: 20px 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.aside1 {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    color: #F26419;
+    background-color: #D0F4EA;
+    border-radius: 20px;
+    position: fixed;
+    left: 92%;
+    top: 35%;
+    width: 100px;
+}
+
+.aside2 {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    color: #F6AE2D;
+    background-color: #D0F4EA;
+    border-radius: 20px;
+    position: fixed;
+    left: 92%;
+    top: 45%;
+    width: 100px;
+}
+
+.aside3 {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    color: #F26419;
+    background-color: #D0F4EA;
+    border-radius: 20px;
+    position: fixed;
+    left: 92%;
+    top: 55%;
+    width: 100px;
+}
+
+.aside4 {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    color: #F6AE2D;
+    background-color: #D0F4EA;
+    border-radius: 20px;
+    position: fixed;
+    left: 92%;
+    top: 65%;
+    width: 100px;
+}
+
+footer {
+    font-family: 微軟正黑體;
+    text-align: center;
+    background-color: #BEBEBE;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
